@@ -1,0 +1,1266 @@
+/* MAIN SECTION */
+#_topAbout {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    z-index: 1;
+    margin-top: -20px;
+}
+#_topAbout figure {
+    width: 270px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tami {
+    background-image: url(../assets/images/brand.png);
+}
+#_topAbout button {
+    width: 270px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #ecf1f9cc;
+    border: none;
+    font-size: 18px;
+}
+
+/* SECTION STICKERS */
+#stickers {
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    padding: 0;
+}
+#stickers > figure {
+    width: 125px;
+    height: 125px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+}
+.stickerAdobe figure {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+}
+#sticker1 {
+    background-image: url(../assets/images/sticker_gp.png);
+    top: -60%;
+    left: 9%;
+    rotate: -20deg;
+}
+#sticker2 {
+    background-image: url(../assets/images/sticker_br.webp);
+    top: -60%;
+    left: 65%;
+    rotate: 15deg;
+}
+#sticker3 {
+    background-image: url(../assets/images/sticker_came.png.webp);
+    top: -40%;
+    left: 83%;
+    rotate: 18deg;
+}
+#sticker4 {
+    background-image: url(../assets/images/sticker_cap.png.webp);
+    top: -20%;
+    left: 10%;
+    rotate: -15deg;
+}
+#sticker5 {
+    background-image: url(../assets/images/sticker_cat.png);
+    top: -33%;
+    left: 68%;
+    rotate: -15deg;
+}
+#sticker6 {
+    background-image: url(../assets/images/sticker_coffee.png);
+    top: -58%;
+    left: 25%;
+    rotate: -10deg;
+}
+#sticker7 {
+    background-image: url(../assets/images/sticker_ai.png);
+    top: -40%;
+    left: 18%;
+    rotate: 5deg;
+}
+#sticker8 {
+    background-image: url(../assets/images/sticker_id.svg.png);
+    top: -58%;
+    left: 80%;
+    rotate: 10deg;
+}
+#sticker9 {
+    background-image: url(../assets/images/sticker_lr.svg.png);
+    top: -20%;
+    left: 27%;
+    rotate: -10deg;
+}
+#sticker10 {
+    background-image: url(../assets/images/sticker_ps.svg.png);
+    top: -13%;
+    left: 80%;
+    rotate: 10deg;
+}
+
+
+/* SECTION MOBILE */
+#_mobile {
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#paragraph {
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+.paragraph {
+    width: 40vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#paragraph1 {
+    padding: 0 17vw 0 9vw;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#paragraph2 {
+    padding: 0 9vw 0 17vw;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.stickerMobile {
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+.stickerMobile figure {
+    width: 40vw;
+    height: 40vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+}
+#stickerMobile {
+    background-image: url(https://cdn.prod.website-files.com/65240dac30f703b7a711b7c2/6524472ece64b75ac0024818_phone_mockup.webp);
+    z-index: 2;
+}
+#backgroundMobile1 {
+    /* background-image: url(../assets/images/back.jpg); */
+    background-color: #fba3d655;
+    z-index: 1;
+    border-radius: 2vw;
+    width: 18vw;
+    height: 39vw;
+    background-size: cover;
+}
+/* Button inside mobile screen */
+#careerOptions {
+    z-index: 9;
+    width: 16vw;
+    height: 3vw;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    margin-top: 34vw;
+}
+#careerOptions p {
+    width: 120px;
+    height: 30px;
+    color: #fba3d6;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+#careerOptions div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#careerOptions figure {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/flaticon.png);
+}
+#screen {
+    width: 13vw;
+    height: 22vw;
+    background-color: white;
+    z-index: 7;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 2vw 1.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+#screen div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#flatIconL {
+    rotate: 180deg;
+    display: none;
+}
+
+
+/* PAGES INSIDE SCREEN */
+#screen h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.diploma {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.diploma p {
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+}
+.diploma figure {
+    display: flex;
+    width: 220px;
+    height: 150px;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+#diploma1 {
+    background-image: url(../assets/images/aboutmeTami.jpg);
+}
+#diploma2 {
+    background-image: url(../assets/images/Certificado\ IFSC\ -\ Ensino\ médio_page-0001.jpg);
+}
+#diploma3 {
+    background-image: url(../assets/images/Certificado\ IFSC\ -\ Ensino\ superior.pdf);
+}
+#diploma4 {
+    background-image: url(../assets/images/Seneca.png);
+}
+
+/* EDIT ON JS TO SHOW WHEN CLICK NEXT */
+#career2, #career1, #career4 {
+    display: none;
+}
+
+
+
+
+/* SECTION SOFTWARE SKILLS */
+#_softwareSkill {
+    width: calc(100vw - 200px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 100px 0 100px;
+    gap: 40px;
+    /* background-color: hotpink; */
+}
+#_softwareSkill > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+.sectionSubtitle > p {
+    padding: 0 150px 40px 150px;
+    display: flex;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: -20px;
+
+    /* WHY ITS NOT WORKING? I want aligned at center cmon */
+    justify-content: center;
+}
+/* boxes for skills */
+/* pattern */
+#_softwareSkill div {
+    border-radius: 50px;
+}
+.skillLine {
+    display: flex;
+    gap: 40px;
+}
+.skillColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#_softwareSkill h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+/* SIZES PICTURES - for inside the boxes skills */
+#_softwareSkill button {
+    background-color: #ffffff7a;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.keyword {
+    font-weight: 600;
+}
+
+
+/* SKILLS (8 boxes) */
+
+/* CODE Box */
+#softCode {
+    width: calc(35vw - 100px);
+    height: calc(600px - 100px);
+    background-color: #fba3d67c;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softCode figure {
+    width: calc(35vw - 100px);
+    height: 20vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50px;
+    margin-top: -8vw;
+    margin-bottom: 20px;
+}
+#softCodeFig {
+    background-image: url(../assets/images/CodeFig.png);
+}
+
+/* Photoshop Box */
+#softPhotoshop {
+    width: calc(45vw - 100px);
+    height: calc(300px - 20px - 100px);
+    background-color: #32a2e87f;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+/* I didnt put gap because it was creating a gap in the end as well, so I created a padding */
+#softPhotoshop h3 {
+    padding-bottom: 10px;
+}
+#softPhotoshop > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#softPhotoshop > div > div {
+    width: calc((45vw - 100px) - 10vw);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#softPhotoshop figure {
+    width: 8vw;
+    height: 8vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#softPhotoshopFig {
+    background-image: url(../assets/images/sticker_ps.svg.png);
+}
+
+/* Illustrator Box */
+#softIllustrator {
+    width: calc(22.5vw - 20px - 100px);
+    height: calc(300px - 20px - 100px);
+    background-color: #ed9a2e7e;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softIllustrator div {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    margin-top: -0.4vw;
+    justify-content: space-between;
+}
+#softIllustrator figure {
+    width: 6vw;
+    height: 6vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* I create to align but not like baseline because its too much */
+    margin-top: -3.5vw;
+}
+#softIllustratorFig {
+    background-image: url(../assets/images/sticker_ai.png);
+}
+
+/* CorelDraw box */
+#softCoreldraw {
+    width: calc(22.5vw - 20px - 100px);
+    height: calc(300px - 20px - 100px);
+    background-color: #6bdd377a;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softCoreldraw div {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    margin-top: -0.4vw;
+    justify-content: space-between;
+}
+#softCoreldraw figure {
+    width: 6vw;
+    height: 6vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -3.5vw;
+    border-radius: 1vw;
+}
+#softCoreldrawFig {
+    background-image: url(../assets/images/sticker_cd.png);
+}
+
+/* Indesign box */
+#softIndesign {
+    width: calc(35vw + 22.5vw + 20px - 100px);
+    height: calc(300px - 20px - 100px);
+    background-color: #f51d657d;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softIndesign > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#softIndesign > div > div {
+    width: calc((45vw - 100px) - 6vw);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#softIndesign figure {
+    width: 18vw;
+    height: 14vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    margin-left: 35vw;
+}
+#softIndesignFig {
+    background-image: url(../assets/images/indesign.png);
+}
+
+
+/* Graphic Print box */
+#softPrint {
+    width: calc(22.5vw - 20px - 100px);
+    height: calc(300px - 20px - 100px);
+    background-color: #f7db2681;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+
+/* Photography and Video Box */
+#softPhotography {
+    width: calc(40vw - 100px);
+    height: auto;
+    background-color: #a686f87c;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softPhotography > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#softPhotography > div > div {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#softPhotography figure {
+    width: 22vw;
+    height: 22vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    margin-left: 16.5vw;
+    margin-top: -5vw;
+}
+#softPhotographyFig {
+    background-image: url(../assets/images/PhotographyFig.webp);
+}
+
+
+/* Animation box */
+#softAnimation {
+    width: calc(40vw - 100px);
+    height: auto;
+    background-color: #ca2ff977;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+#softAnimation > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+#softAnimation > div > div {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#softAnimation figure {
+    width: 25vw;
+    height: 22vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    margin-left: 16.5vw;
+    margin-top: -5vw;
+}
+#softAnimationFig {
+    background-image: url(../assets/images/animation.png);
+}
+
+
+
+/* SECTION SERVICES */
+#_services {
+    width: calc(100vw - 200px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 100px 0 100px;
+    gap: 40px;
+    /* background-color: #8cb7d5; */
+}
+#_services > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Design box services - pattern */
+#_services > div > div {
+    width: 38vw;
+    height: auto;
+    /* background-color: #ecf1f9cc; */
+    padding: 30px 30px 40px 30px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#_services figure {
+    width: 100%;
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    border-radius: 20px;
+}
+.serviceBtnFig {
+    display: flex;
+}
+#_services button {
+    position: absolute;
+    z-index: 2;
+    border: none;
+    border-radius: 50px;
+    background-color: #ed35bf;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#_services h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+#_services a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/* Figures for each service */
+#service1Fig {
+    background-image: url(../assets/images/service1Fig.png);
+}
+#service2Fig {
+    background-image: url(../assets/images/service2Fig.png);
+}
+#service3Fig {
+    background-image: url(../assets/images/countrizzchina.jpg);
+}
+#service4Fig {
+    background-image: url(../assets/images/service4Fig.png);
+}
+#service5Fig {
+    background-image: url(../assets/images/service5Fig.png);
+}
+#service6Fig {
+    background-image: url(../assets/images/service6Fig.png);
+}
+#service7Fig {
+    background-image: url(../assets/images/service7Fig.png);
+}
+#service8Fig {
+    background-image: url(../assets/images/service8Fig.JPG);
+}
+
+
+
+
+
+/* SECTION WHY HIRE ME */
+#_whyhire {
+    width: calc(100vw - 200px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 100px 150px 100px;
+    gap: 40px;
+    /* background-color: #f3e38c; */
+}
+
+/* Subcategory Hire me */
+#_whyhire > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#_whyhire > div > div {
+    width: 42vw;
+    height: 27vw;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+}
+
+/* Figure hire me */
+#_whyhire figure {
+    width: calc(40vw - 60px);
+    height: 35vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#hireme {
+    background-image: url(../assets/images/hireme.png);
+}
+
+/* Inside box, icon and title */
+#iconHire {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#iconHire h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-top: 5px;
+}
+#iconHire figure {
+    width: 2vw;
+    height: 2vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#iconHireFig {
+    background-image: url(../assets/images/checkicon.png);
+}
+#_whyhire > div p {
+    line-height: 1.3;
+    margin-left: calc(2vw + 10px);
+    margin-top: -25px;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////// */
+/* ANIMATIONS AND HOVERS */
+
+/* STICKERS MOVING INSIDE THE PHONE SCREEN */
+/* I want this same animation but scrolling the screen instead of animation */
+#stickers > figure {
+    animation: stickerScroll linear 3s;
+}
+.stickerAdobe figure {
+    animation: stickerScroll linear 2.8s;
+}
+@keyframes stickerScroll {
+    0% {
+        left: 47%;
+        top: 20%;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        /* Why opacity isnt working????????????????? */
+        opacity: 0;
+    }
+}
+
+/* PARAGRAPHS BESIDES PHONE SCREEN */
+.paragraph {
+    animation: appear linear 4s;
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+        color: pink;
+    }
+    20%{
+        opacity: 0;
+    }
+    80% {
+        color: pink;
+    }
+}
+
+/* Top dowload CV button */
+#_topAbout button:hover{
+    background-color: #fba3d6;
+    font-weight: 600;
+    color: white;
+}
+/* Mobile section */
+.stickerMobile button:hover{
+    font-weight: 600;
+    color: white;
+}
+.diploma figure:hover {
+    scale: 2;
+}
+/* Button inside Mobile section */
+#careerOptions p:hover {
+    background-color: #fba3d6;
+    color: white;
+}
+
+/* SKILLS section */
+#softCode figure:hover, #softPhotoshop figure:hover, #softIllustrator figure:hover, #softCoreldraw figure:hover, #softIndesign figure:hover, #softPhotography figure:hover, #softAnimation figure:hover {
+    rotate: 10deg;
+    scale: 1.1;
+}
+#softCode:hover, #softPhotoshop:hover, #softIllustrator:hover, #softCoreldraw:hover, #softIndesign:hover, #softPhotography:hover, #softAnimation:hover, #softPrint:hover {
+    box-shadow: #00000072 3px 3px;
+}
+#_softwareSkill button:hover {
+    background-color: #ffffffda;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    box-shadow: #00000072 1px 1px;
+}
+
+/* SERVICE section */
+#_services figure:hover {
+    height: 25vw;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////// */
+/* MOBILE RESPONSIVE SCREEN */
+/* SCREEN SIZE AFTER 650PX */
+@media only screen and (max-width: 700px) {
+
+    /* MAIN SECTION */
+    #_topAbout {
+        width: 100vw;
+        height: 60vh;
+    }
+    #_topAbout figure {
+        width: 150px;
+        height: 50px;
+        background-size: contain;
+    }
+    #_topAbout button {
+        width: 170px;
+        font-size: 14px;
+    }
+
+    /* SECTION STICKERS */
+    #stickers {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+    #stickers > figure {
+        width: 70px;
+        height: 70px;
+        margin-top: -25px;
+    }
+    .stickerAdobe figure {
+        width: 30px;
+        height: 30px;
+        margin-top: -25px;
+
+    }
+    /* STICKERS */
+    /* gp */
+    #sticker1 {
+        top: -5%;
+        left: 15%;
+        rotate: -25deg;
+        scale: 1.2;
+    }
+    /* br */
+    #sticker2 {
+        top: -50%;
+        left: 65%;
+        rotate: 7deg;
+        scale: 0.8;
+    }
+    /* camera */
+    #sticker3 {
+        top: -52%;
+        left: 23%;
+        rotate: -5deg;
+        scale: 1.1;
+    }
+    /* cap */
+    #sticker4 {
+        background-image: none;
+    }
+    /* cat */
+    #sticker5 {
+        top: -34%;
+        left: 75%;
+        rotate: 3deg;
+        scale: 1.1;
+    }
+    /* coffee */
+    #sticker6 {
+        top: -25%;
+        left: 13%;
+        rotate: -20deg;
+    }
+    /* ai */
+    #sticker7 {
+        top: -38%;
+        left: 10%;
+        rotate: 10deg;
+    }
+    /* id */
+    #sticker8 {
+        top: -1%;
+        left: 75%;
+        rotate: 20deg;
+    }
+    /* lr */
+    #sticker9 {
+        top: -5%;
+        left: 55%;
+        rotate: -5deg;
+    }
+    /* psp */
+    #sticker10 {
+        top: -10%;
+        left: 82%;
+        rotate: 10deg;
+    }
+
+
+    /* SECTION MOBILE */
+    #_mobile {
+        width: 100vw;
+        height: auto;
+    }
+    #paragraph {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 450px 0 0 0;
+    }
+    .paragraph {
+        width: calc(100vw - 80px);
+        align-items: center;
+        justify-content: center;
+    }
+    #paragraph p {
+        padding: 5px 40px;
+    }
+    #paragraph1 {
+        padding: 0;
+        font-size: 18px;
+        margin-top: 0;
+        letter-spacing: 0.5px;
+    }
+    #paragraph2 {
+        padding: 0;
+        font-size: 12px;
+        margin: 0;
+        letter-spacing: 0.5px;
+    }
+    .stickerMobile {
+        width: 100vw;
+        height: 100vw;
+        margin-top: -100px;
+    }
+    .stickerMobile figure {
+        width: 100vw;
+        height: 100vw;
+    }
+    #backgroundMobile1 {
+        width: 45vw;
+        height: 100vw;
+        border-radius: 40px;
+    }
+
+    /* Button inside mobile screen */
+    #careerOptions {
+        width: 40vw;
+        height: 7.7vw;
+        padding: 0 5px;
+        margin-bottom: 0;
+        margin-top: 77vw;
+    }
+    #careerOptions p {
+        width: 65px;
+        height: 22px;
+        font-size: 10px;
+    }
+    #careerOptions div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #screen {
+        display: flex;
+        width: 36vw;
+        height: 60vw;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 4vw 2vw;
+    }
+    #screen div {
+        gap: 10px;
+        width: 36vw;
+        height: 60vw;
+    }
+
+    /* PAGES INSIDE SCREEN */
+    #screen h3 {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .diploma figure {
+        width: 120px;
+        height: 90px;
+        border-radius: 15px;
+    }
+    .diploma p {
+        font-size: 7.3px;
+        padding: 0 8px;
+        letter-spacing: 0;
+    }
+
+    
+
+    /* SECTION SOFTWARE SKILLS */
+    #_softwareSkill {
+        width: calc(100vw - 60px);
+        padding: 70px 30px 0 30px;
+        gap: 40px;
+    }
+    #_softwareSkill > p {
+        padding: 0 0 40px 0;
+        font-size: 12px;
+    }
+
+    /* Organization boxes skill */
+    .skillLine {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .skillColumn {
+        gap: 20px;
+    }
+    #_softwareSkill h3 {
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+    #_softwareSkill button {
+        width: 70vw;
+    }
+    #_softwareSkill > div p {
+        font-size: 12px;
+    }
+
+    /* Boxes Skill forEach // pattern */
+    #softCode, #softPhotoshop, #softIllustrator, #softCoreldraw, #softIndesign, #softPrint, #softPhotography, #softAnimation {
+        width: 70vw;
+        height: auto;
+        padding: 50px 30px 30px 30px;
+        align-items: center;
+        margin-top: 20vw;
+    }
+    #softPhotoshop h3, #softIllustrator h3, #softCoreldraw h3, #softIndesign h3, #softPrint h3, #softAnimation h3, #softPhotography h3 {
+        padding-bottom: 5px;
+    }
+    #softIllustrator figure, #softCoreldraw figure {
+        width: 25vw;
+        height: 25vw;
+        margin-top: -40vw;
+        position: absolute;
+    }
+    #softIllustrator > div, #softCoreldraw > div {
+        justify-content: center;
+    }
+
+    /* Specific boxes */
+    #softCode {
+        margin-top: 40vw;
+    }
+    #softCode figure, #softIndesign figure, #softPhotography figure, #softAnimation figure {
+        width: 60vw;
+        height: 60vw;
+        margin-top: -80vw;
+    }
+    #softPhotoshop {
+        height: 50vw;
+    }
+    #softPhotoshop > div, #softIndesign > div, #softPhotography > div, #softAnimation > div {
+        flex-direction: column;
+    }
+    #softPhotoshop > div > div, #softIndesign > div > div, #softPhotography > div > div, #softAnimation > div > div {
+        width: 70vw;
+    }
+    #softPhotoshop figure {
+        width: 25vw;
+        height: 25vw;
+        margin-top: -92vw;
+    }
+    #softCoreldraw figure {
+        border-radius: 15px;
+    }
+    #softIndesign {
+        margin-top: 34vw;
+        height: auto;
+    }
+    #softIndesign figure {
+        margin-top: -65vw;
+        margin-left: 0;
+    }
+    #softPrint {
+        margin-top: 0;
+    }
+    #softPhotography {
+        margin-top: 15vh;
+    }
+    #softPhotography figure {
+        margin-top: -35vh;
+        margin-left: 0;
+    }
+    #softAnimation {
+        margin-top: 18vh;
+    }
+    #softAnimation figure {
+        margin-top: -35vh;
+        margin-left: 0;
+    }
+
+
+
+    /* SECTION SERVICES */
+    #_services {
+        width: calc(100vw - 60px);
+        padding: 70px 30px 0 30px;
+        gap: 30px;
+    }
+    #_services > p {
+        padding: 0;
+        font-size: 12px;
+    }
+    #_services > div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    /* Design box services - pattern */
+    #_services > div > div {
+        width: 80vw;
+        padding: 20px;
+    }
+    #_services figure {
+        width: 80vw;
+        height: 40vw;
+    }
+    #_services button {
+        font-size: 12px;
+    }
+    #_services h3 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+    #_services a {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    #_services p, #_services a {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+
+    /* SECTION Why hire me */
+    #_whyhire {
+        width: calc(100vw - 60px);
+        padding: 70px 30px 50px 30px;
+        gap: 20px;
+    }
+
+    #_whyhire > p {
+        padding: 0;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    /* Subcategory Hire me */
+    #_whyhire > div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #_whyhire > div > div {
+        width: 80vw;
+        height: auto;
+        gap: 20px;
+    }
+    #_whyhire figure {
+        width: 60vw;
+        height: 60vw;
+    }
+    
+    /* Figure hire me */
+    #iconHire {
+        gap: 5px;
+    }
+    #iconHire h3 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    #iconHire figure {
+        width: 10vw;
+        height: 10vw;
+    }
+    #_whyhire > div p {
+        margin-left: 5px;
+        margin-top: -12px;
+        font-size: 12px;
+    }
+    #hireme {
+        display: none;
+    }
+
+    /* /////////////////////////////////////////////// */
+    /* ANIMATIONS AND HOVERS */
+    #softCode:hover, #softPhotoshop:hover, #softIllustrator:hover, #softCoreldraw:hover, #softIndesign:hover, #softPhotography:hover, #softAnimation:hover, #softPrint:hover {
+        box-shadow: none;
+    }
+    #_softwareSkill button:hover {
+        box-shadow: none;
+    }
+    #_services figure:hover {
+        width: 80vw;
+        height: 60vw;
+    }
+}

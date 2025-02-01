@@ -1,0 +1,431 @@
+/* MAIN SECTION */
+body, a, p, section, article, div p {
+    line-height: 1.5;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* SECTION GRIDS */
+#containers {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12vw; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px 100px 100px;
+}
+#containers article {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+#containerTitle p {
+    line-height: 1.8;
+}
+#descripMobile {
+    display: none;
+}
+
+
+/* SECTION GRIDS */
+/* SECTION COVER PAGE - WEBSITE MULTIFITAS MOCKUPS */
+#containerCoverWeb {
+    display: grid;
+    width: 80vw;
+    height: 60vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    gap: 20px;
+}
+#containerCoverWeb article {
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#containerCoverWeb1 {
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-image: url(../assets/images/3screen.png);
+}
+#containerCoverWeb2 {
+    background-image: url(../assets/images/MacBook_Dresser_Mockup_1.png);
+}
+#containerCoverWeb3 {
+    background-image: url(../assets/images/1screen.png);
+}
+.gapGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+/* SECTION WEB - PAGES MULTIFITAS MOBILE */
+#containerWeb {
+    display: grid;
+    width: 83vw;
+    height: 60vw;
+    grid-template-columns: 2fr 0.5fr 3fr 0.5fr 4fr 0.5fr 3fr 0.5fr 2fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr 3fr 3fr 0.5fr 3fr 3fr 0.5fr 3fr 0.5fr;
+}
+#containerWeb article {
+    border-radius: 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 20px solid #f7f9fc;
+}
+
+/* grids */
+#contentWeb1 {
+    grid-area: 1 / 5 / 5 / -5; 
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #f7f9fc;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.divGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divGrid h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.divGrid p, .divGrid a {
+    font-size: 17px;
+}
+.divGrid a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#contentWeb2 {
+    grid-area: 2 / 2 / span 4 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile2.png);
+    opacity: 85%;
+    filter: blur(0.5px);
+    z-index: 2;
+}
+#contentWeb3 {
+    grid-area: 2 / -4 / span 4 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile3.png);
+    opacity: 85%;
+    filter: blur(0.5px);
+    z-index: 2;
+}
+#contentWeb4 {
+    grid-area: 5 / 5 / -2 / span 1;
+    background-image: url(../assets/images/ScreenshotMobile4.png);
+    z-index: 2;
+}
+#contentWeb5 {
+    grid-area: 5 / 1 / span 3 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile5.png);
+    opacity: 50%;
+    filter: blur(1px);
+    z-index: 1;
+}
+#contentWeb6 {
+    grid-area: 5 / -3 / span 3 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile6.png);
+    opacity: 50%;
+    filter: blur(1px);
+    z-index: 1;
+}
+#contentWeb7 {
+    grid-area: -6 / 2 / span 4 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile7.png);
+    opacity: 85%;
+    filter: blur(0.5px);
+    z-index: 2;
+}
+#contentWeb8 {
+    grid-area: -6 / -4 / span 4 / span 2;
+    background-image: url(../assets/images/ScreenshotMobile9.png);
+    opacity: 85%;
+    filter: blur(0.5px);
+    z-index: 2;
+}
+
+
+
+/* GRID 2 - CONTAINER COUNTRIZZ CHARACTERS */
+#containerCharac {
+    display: grid;
+    width: 100%;
+    height: 90vw;
+    grid-template-columns: repeat(38, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    padding: 0 50px;
+}
+#containerCharac article {
+    border-radius: 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divGrid figure {
+    width: 100%;
+    height: 9.5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+#divGridCode {
+    background-image: url(../assets/images/service6Fig\ copy.png);
+}
+#ramen1 {
+    grid-area: 1 / 1 / span 7 / -1;
+    background-color: #f7f9fc;
+    padding: 40px;
+}
+#ramen2 {
+    grid-area: 11 / 1 / span 10 / 20;
+    background-image: url(../assets/images/ramen1.png);
+}
+#ramen3 {
+    grid-area: 11 / 21 / span 10 / -1;
+    background-image: url(../assets/images/ramen2.png);
+}
+#ramen4 {
+    display: none;
+}
+#ramen5 {
+    grid-area: 22 / 18 / span 10 / -1;
+    background-image: url(../assets/images/ramen3.png);
+}
+#ramen6 {
+    grid-area: 22 / 1 / span 10 / 17;
+    background-image: url(../assets/images/ramen4.png);
+}
+
+
+
+/* GRID 7 - CONTAINER 7 */
+.carousel {
+    width: 82vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.carousel > section {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+.carousel div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carousel article {
+    border-radius: 100px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel p {
+    padding: 20px;
+    text-align: center;
+}
+#carousel_1 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel_2 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel_3 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel_4 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel2_1 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel2_2 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel2_3 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+#carousel2_4 {
+    background-image: url(../assets/images/Agency-Studio.jpg);
+}
+
+
+
+/* /////////////////////////////////////////////// */
+/* MOBILE RESPONSIVE SCREEN */
+/* SCREEN SIZE AFTER 650PX */
+@media only screen and (max-width: 700px) {
+    /* MAIN SECTION */
+    body, a, p, section, article, div p {
+        line-height: 1.2;
+        font-size: 12px;
+    }
+    /* SECTION GRIDS */
+    #containers {
+        padding: 20px 30px 100px 30px;
+    }
+    #containerTitle a {
+        color: #223ea6;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    #containerTitle {
+        gap: 20px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    #containerTitle p {
+        line-height: 1.2;
+    }
+    #descripRespons {
+        display: none;
+    }
+    #descripMobile {
+        display: block;
+    }
+
+    /* SECTION GRIDS */
+    /* SECTION COVER PAGE - WEBSITE MULTIFITAS MOCKUPS */
+    #containerCoverWeb {
+        display: grid;
+        width: 100%;
+        height: 75vw;
+    }
+    #containerCoverWeb article {
+        border-radius: 30px;
+    }
+
+    /* SECTION WEB - PAGES MULTIFITAS MOBILE */
+    #containerWeb {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 2fr 0.2fr 0.5fr 0.2fr 1.5fr 0.2fr 1fr 0.2fr 3fr;
+        grid-template-rows: 0.7fr 0.05fr 0.7fr 0.05fr 1.1fr;
+    }
+    #containerWeb article {
+        border-radius: 10px;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid #f7f9fc;
+        opacity: unset;
+        filter: unset;
+    }
+    #contentWeb1 {
+        grid-area: 1 / 1 / span 1 / span 5; 
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .divGrid h3 {
+        font-size: 15px;
+    }
+    .divGrid p, .divGrid a {
+        font-size: 12px;
+    }
+    #contentWeb2 {
+        grid-area: 3 / 3 / span 1 / span 3;
+    }
+    #contentWeb3 {
+        grid-area: 3 / 1 / span 1 / span 1;
+    }
+    #contentWeb4 {
+        grid-area: 1 / -4 / span 3 / span 3;
+    }
+    #contentWeb5 {
+        grid-area: -2 / -2 / span 1 / span 1;
+    }
+    #contentWeb6 {
+        grid-area: -2 / 5 / span 1 / span 3;
+    }
+    #contentWeb7 {
+        display: none;
+    }
+    #contentWeb8 {
+        grid-area: -2 / 1 / span 1 / span 3;
+    }
+    #contentWeb9 {
+        display: none;
+    }
+
+
+
+    /* GRID - CONTAINER 2 JAPANESE RAMEN */
+    #containerCharac {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
+    #containerCharac article {
+        border-radius: 30px;
+    }   
+    .divGrid {
+        gap: 5px;
+    }
+    .divGrid h3 {
+        font-size: 18px;
+    }
+    .divGrid p, .divGrid a {
+        font-size: 10px;
+    }
+    #divGridCode {
+        display: none;
+    }
+    #ramen1 {
+        grid-area: 1 / 1 / span 9 / -1;
+        padding: 30px;
+    }
+    #ramen1 p, #ramen1 a {
+        font-size: 12px;
+    }
+
+
+    /* CAROUSEL */
+    .carousel > section {
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .carousel article {
+        border-radius: 70px;
+    }
+    #grid7_2, #grid7_3, #grid7_4, #grid7_5 {
+        display: none;
+    }
+    #grid8_2, #grid8_3, #grid8_4, #grid8_5 {
+        display: none;
+    }
+}

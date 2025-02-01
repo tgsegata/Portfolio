@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="stylesheet" href="../css/fixedLayout.css">
+
+        <title>Contact</title>
+    </head>
+    <body>
+        <!-- HEADER SECTION -->
+        <header id="siteHeader"></header>
+
+        <!-- MAIN SECTION -->
+        <main>
+            <!-- SECTION TOP / Intro -->
+            <section id="top">
+                <h1>Hey, I am 
+                    <span id="typing1">T</span>
+                    <span id="typing2">a</span>
+                    <span id="typing3">m</span>
+                    <span id="typing4">i</span>
+                </h1>
+                <h2>Let's get in touch...</h2>
+                <div>
+                    <a href="#myContact">My contact</a>
+                    <a href="#_form">Send a message</a>
+                </div>
+                <figure id="banner"></figure>
+            </section>
+
+            <!-- SECTION MY CONTACT -->
+            <section id="myContact">
+                <figure id="my_icon"></figure>
+                <div id="background_contact">
+                    <h2>Contact me</h2>
+                    <div id="localContact">
+                        <div>
+                            <figure id="email" class="icon"></figure>
+                            <p class="title_me">By email:</p>
+                            <p class="subject_me">tgsegata@gmail.com</p>
+                        </div>
+                        <div>
+                            <figure id="phone" class="icon"></figure>
+                            <p class="title_me">By phone:</p>
+                            <p class="subject_me">CA +1 (000) 000-0000</p>
+                        </div>
+                        <div>
+                            <figure id="local" class="icon"></figure>
+                            <p class="title_me">Location:</p>
+                            <p class="subject_me">City of Toronto, Canada</p>
+                        </div>
+                    </div>
+                    
+                    <figure id="map"></figure>
+                </div>
+            </section>
+
+            <!-- SECTION SEND A MESSAGE - FORM -->
+            <section id="_form">
+                <div class="figure_back">
+                    <figure id="figure_back"></figure>
+                </div>
+                <form action="" method="post">
+                    <fieldset class="contact_form">
+                        <h2 id="title_contact">Send a message</h2>
+
+                        <!-- I put all forms inside div to stay together when applied wrap -->
+                        <!-- Contact -->                    
+                        <div>
+                            <div class="emailGreenBullet">
+                                <figure id="greenBullet"></figure>
+                            </div>
+                            <label for="fname">Name<sup>*</sup></label>
+                            <input class="inputs" type="text" placeholder="First & last name" required>
+                            <p class="errorIndicator">Please enter your name</p>
+                        </div>
+                        <div>
+                            <div class="emailGreenBullet">
+                                <figure id="greenBullet"></figure>
+                            </div>
+                            <label for="email">Email<sup>*</sup></label>
+                            <input class="inputs" type="email" placeholder="Email" required>
+                            <p class="errorIndicator">Please enter your email</p>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="contact_form">
+                        <!-- Subject -->
+                        <div id="subject_form">
+                            <div class="emailGreenBullet">
+                                <figure id="greenBullet"></figure>
+                            </div>
+                            <label for="subject">Subject<sup>*</sup></label>
+                            <input class="inputs" id="subject" type="text" placeholder="Subject" required>
+                            <p class="errorIndicator">Please enter the subject</p>
+                        </div>
+
+                        <!-- Message -->
+                        <div id="message_form">
+                            <div class="emailGreenBullet">
+                                <figure id="greenBullet"></figure>
+                            </div>
+                            <label id="message" for="textarea">Message<sup>*</sup></label>
+                            <textarea name="" class="inputs" id="message" placeholder="Message" required></textarea>
+                            <p class="errorIndicator">Please enter the message</p>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="selection_form">
+                        <!-- Choose answear option -->
+                        <legend id="legend_select">Select how you would like to be contacted:</legend>
+                        <div>
+                            <label for="email">Email</label>
+                            <input class="inputs" id="email" type="radio" name="contact">
+                        </div>
+                        <div>
+                            <label for="phone_call">Phone call</label>
+                            <input class="inputs" id="phone_call" type="radio" name="contact">
+                        </div>
+                        <div>
+                            <label for="sms">SMS</label>
+                            <input class="inputs" id="sms" type="radio" name="contact">
+                        </div>
+                        <div>
+                            <label for="whatsapp">Whatsapp</label>
+                            <input class="inputs" id="whatsapp" type="radio" name="contact">
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" value="Send message" id="submit_button">Send message</button>
+                </form>
+
+                <!-- pop up for submission button -->
+                <div id= "confirmation">
+                    <figure id="confirmationEmail"></figure>
+                    <h3>Thank you!</h3>
+                    <p id="confirmationText"></p>
+                    <div id="closeButton">
+                        <p>Back to</p>
+                        <figure id="confirmationClose"></figure>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer id="siteFooter"></footer>
+
+        <!-- CONNECTIONS -->
+        <!-- AUDIO FILES -->
+        <audio id="beep_1" src="assets/audio/audio_1.mp3"></audio>
+        <audio id="beep_2" src="assets/audio/audio_2.mp3"></audio>
+
+        <!-- CONNECTION JS -->
+        <script src="../js/contact.js"></script>
+        <script src="../js/fixedLayout.js"></script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+/* 
+
+WHAT'S UP
+
+WELCOME TO TAMI'S WEBSITE, 
+or my mind ;) 
+
+This is the MANUAL to understand properly the website
+
+*/
+
+
+
+
+/* First, there is a menu_nav separating the files */
+    /* Inside each folder, there is the respective files with the same language */
+    /* FOLDERS: 
+        css
+        html
+        js */
+
+
+/* The file names are the same as the pages of the final website */
+    /* For example, 
+    Contact page, the html is contact.html */
+
+
+/* For each html, there is the design, which is the css folder */
+    /* Each file has the same name of html and css,
+    example: contact.html & contact.css */
+
+
+/* Inside each CSS, every file has the following category:
+
+    1. Design for RESPONSIVE SCREEN (monitor/pc)
+        a. Inside it, the design follows the scroll of the screen,
+        first the main page, and then each section following the screen
+        b. For each design, first there is the main design, or the <parent>
+        and then the specific designs for <siblings>, following all the same pattern
+
+    2. Design for JS ITEMS
+        a. When there is an item that isnt on the html, but I use for js
+    
+    3. HOVERS and ANIMATIONS
+
+    4. Design for MOBILE SCREEN
+        a. The design follows the same order as the responsive/monitor screen,
+        first main page, then parents and finally siblings
+        b. The design also follows the hovers and animations at the end
+*/
+
+
+
+/* THANK YOU FOR READING MY LOVELY WORK! 
+I hope I helped you ;) */

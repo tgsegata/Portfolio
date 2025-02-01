@@ -1,0 +1,405 @@
+/* CSS FOR DESIGNING THE PATTERN FOR ALL THE HTMLs: */
+
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body, a, p, :placeholder-shown, textarea, input, button {
+    font-family: Rajdhani;
+    text-decoration: none;
+    color: #151515;
+    font-size: 15px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* SECTION HEADER */
+header {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Section fixed header with margin */
+header section {
+    width: calc(100vw - 20vw);
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #ecf1f979;
+    margin: 30px 150px;
+    border-radius: 50px;
+    font-weight: 500;
+    position: fixed;
+    padding: 0 40px;
+    justify-content: space-between;
+    opacity: 90%;
+    z-index: 10;
+    /* effect blur */
+    backdrop-filter: blur(5px);
+}
+header div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header nav {
+    display: flex;
+    gap: 2.5vw;
+    align-items: center;
+    justify-content: center;
+}
+header a {
+    font-size: 17px;
+}
+#contact_div {
+    display: flex;
+    gap: 1.5vw;
+}
+#aboutMe {
+    background-color: #d5e5ff;
+    width: 10vw;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#brand {
+    gap: 20px;
+}
+header figure {
+    width: 2vw;
+    height: 2.5vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#burguer {
+    display: none;
+    background-image: url(../assets/images/burger.svg.png);
+}
+
+#logo_img {
+    background-image: url(../assets/images/logo.png);
+}
+#brand_img {
+    background-image: url(../assets/images/brand.png);
+    width: 6vw;
+    height: 4vw;
+}
+#contact_img {
+    background-image: url(../assets/images/contact.jpg.png);
+}
+
+/* HEADER MOBILE SECTION */
+#burgerMenu {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #fca0ceb3, #90d3fcb8);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: fixed;
+    top: -100vh;
+    transition: all 0.5s ease;
+    z-index: 10;
+    padding: 70px;
+    gap: 10px;
+
+    /* effect blur */
+    backdrop-filter: blur(5px);
+}
+#burgerMenu.slideDown {
+    top: 90px;
+}
+#burgerMenu > a {
+    font-size: 18px;
+    text-decoration: none;
+    z-index: 20;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /* button style */
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+#burguerClose {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/closebutton2.webp);
+    display: none;
+}
+
+
+
+/* FOOTER SECTION */
+footer {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10fr 1fr;
+    grid-template-areas: 
+    '_content'
+    '_footer';
+}
+footer a, p, h3 {
+    line-height: 1.5;
+}
+#contentFooter {
+    grid-area: _content;
+    display: grid;
+    background-color: #d5e5ff;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding: 50px 20vw;
+    gap: 10px;
+
+    grid-template-areas: 
+    'contentF1 contentF1 contentF1 contentF1'
+    'contentF2 contentF3 contentF4 contentF5'
+    'contentF6 contentF6 contentF7 contentF7';
+}
+.navFooter {
+    display: flex;
+    flex-direction: column;
+}
+.moreFooter, .closeFooter {
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/setaaa.png);
+}
+#footer_1 {
+    grid-area: contentF1;
+    display: flex;
+    align-items: center;
+    gap: 26.6px;
+}
+#footer_1 figure{
+    width: 2.6vw;
+    height: 3.3vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#footer_1 > #brand_img{
+    width: 8vw;
+    height: 5.3vw;
+}
+.gridFooter {
+    display: flex;
+    padding: 30px 30px 30px 10px;
+    flex-direction: column;
+}
+.h3nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+._h3 {
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#footer_2 {
+    grid-area: contentF2;
+}
+#footer_3 {
+    grid-area: contentF3;
+}
+#footer_4 {
+    grid-area: contentF4;
+}
+#footer_5 {
+    grid-area: contentF5;
+}
+#footer_6 {
+    grid-area: contentF6;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#footer_6 img{
+    width: 2vw;
+    height: 2vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+#footer_7 {
+    grid-area: contentF7;
+}  
+#endFooter {
+    grid-area: _footer;
+    background-color: #ecf1f979;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#endFooter figure{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+/* EFFECT JS HOVER FIGURES ON CODE AND PROJECTS PAGE */
+.hoverOnJs {
+    transition: transform 0.3s ease;
+}
+.scale-up {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////// */
+/* ANIMATIONS AND HOVERS */
+nav a:hover {
+    background-color: #d5e5ff;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+#contactIcon:hover, #aboutMe:hover {
+    font-weight: 600;
+}
+
+
+/* MOBILE RESPONSIVE SCREEN */
+/* SCREEN SIZE AFTER 650PX */
+@media only screen and (max-width: 700px) {
+
+    /* HEADER */
+    /* Section fixed header with margin */
+    /* MAIN SECTION */
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    header section {
+        width: calc(100vw - 100px);
+        height: 50px;
+        margin: 20px;
+        padding: 0 30px;
+    }
+    #navMenu a, #contact_div a, #aboutMe, #contact_img {
+        display: none;
+    }
+    header figure {
+        width: 30px;
+        height: 30px;
+    }
+    #brand_img {
+        width: 18vw;
+        height: 10vw;
+    }
+    #brand {
+        gap: 10px;
+    }
+    #burguer {
+        display: flex;
+    }
+
+    /* FOOTER */
+    footer {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #contentFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 30px;
+    }
+    .navFooter {
+        display: none;
+    }
+
+    .moreFooter {
+        display: flex;
+    }
+    #footer_1 {
+        gap: 10px;
+        padding: 40px 20px 20px 20px;
+    }
+    #footer_1 figure {
+        width: 30px;
+        height: 30px;
+    }
+    #footer_1 > #brand_img{
+        width: 18vw;
+        height: 10vw;
+    }
+    .gridFooter {
+        padding: 0 30px;
+    }
+    ._h3 {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    #footer_6 {
+        justify-content: space-between;
+        padding: 50px 20px;
+    }
+    #footer_6 img{
+        width: 10vw;
+        height: 10vw;
+    }
+    #endFooter {
+        height: 50px;
+    }
+    #endFooter figure{
+        width: 5vw;
+        height: 5vw;
+    }
+    #endFooter p {
+        font-size: 12px;
+    }
+}

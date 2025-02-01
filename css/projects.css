@@ -1,0 +1,995 @@
+/* MAIN SECTION */
+body, a, p, section, article, div p {
+    line-height: 1.5;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* SECTION GRIDS */
+#containers {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12vw; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px 250px 100px;
+}
+#containers article {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+#containerTitle p {
+    line-height: 1.8;
+}
+#descripMobile {
+    display: none;
+}
+
+
+/* SECTION GRIDS */
+/* SECTION COVER PAGE */
+#containerCoverWeb {
+    display: grid;
+    width: 80vw;
+    height: 60vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    gap: 20px;
+}
+#containerCoverWeb article {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+#containerCoverWeb1 {
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-image: url(../assets/images/entrance0.jpg);
+}
+#containerCoverWeb2 {
+    background-image: url(../assets/images/entrance1.jpg);
+}
+#containerCoverWeb3 {
+    background-image: url(../assets/images/entrance2.jpg);
+}
+
+
+/* GRID DESIGN PROJECTS */
+/* GRID - <!-- Cameo & Match tattoo --> */
+/* Spce between 2 grid group */
+.twoGrids {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+#twoGrids1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.style2Grids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.style2Grids p {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+/* style for half of the grid */
+.styleHalfGrid {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+}
+.styleHalfGrid p {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+}
+.styleHalfGrid h3 {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* GRID 2 - CONTAINER 2 */
+/* CAMEO PROJECT */
+#container2 {
+    width: 40vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(8, minmax(40px, 80px));
+    grid-template-rows: repeat(9, minmax(35.5px, 71px));
+    justify-content: center;
+}
+#container2 article {
+    background-size: cover;
+}
+/* GRIDS IMAGES AREAS */
+#cameo1 {
+    grid-area: 1 / 5 / 2 / -2 ;
+    background-color: black;
+    border-radius: 30px;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cameo1 p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+#cameo2 {
+    grid-area: 1 / 2 / -1 / -3 ;
+    background-image: url(../assets/images/Cameo_Assignment_page-0002.jpg);
+    border-radius: 50px;
+}
+#cameo3 {
+    grid-area: 3 / 1 / -2 / 2 ;
+    background-color: black;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#cameo4 {
+    grid-area: 3 / -3 / -2 / -1 ;
+    background-image: url(../assets/images/Cameo_Assignment_page-0001.jpg);
+    border-radius: 50px;
+    scale: 1.2;
+    border: 2px solid white;
+}
+
+
+/* GRID 3 - CONTAINER 3 */
+/* MATCH TATTOO PROJECT */
+#container3 {
+    width: 40vw;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(24, minmax(11px, 44px));
+    grid-template-rows: repeat(13, minmax(20px, 60px));
+}
+
+/* GRIDS IMAGES AREAS */
+#grid3_1 {
+    grid-row: 1 / span 12;
+    grid-column: 1 / span 14;
+    background-color: #191919;
+    border-radius: 50px;
+    z-index: 0;
+}
+#grid3_2 {
+    grid-area: 2 / 2 / 9 / 14 ;
+    background-image: url(../assets/images/logomatch.jpg);
+    border-radius: 50px;
+    z-index: 1;
+}
+/* writing inside phone */
+#grid3_3 {
+    grid-area: 9 / 2 / 12 / 14 ;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 1;
+}
+#grid3_3 div {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 10px;
+}
+#grid3_3 h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* right side screen */
+#grid3_4 {
+    grid-area: 2 / 15 / -3 / -3 ;
+    background-image: url(../assets/images/matchtattoo__page-0005.png);
+    margin-left: -1px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* small grid icons */
+#grid3_6 {
+    grid-area: 3 / -4 / span 2 / -2 ;
+    background-color: #b789bd;
+    border-radius: 50px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid3_6 p, #grid3_7 p {
+    color: white;
+}
+
+#grid3_7 {
+    grid-area: -7 / -4 / span 2 / -2 ;
+    background-color: #b789bd;
+    border-radius: 50px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* GRID - CONTAINER COUNTRIZZ CHARACTERS */
+#containerCharac {
+    display: grid;
+    width: 100%;
+    height: 70vw;
+    grid-template-columns: repeat(38, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    padding: 0 50px;
+}
+#containerCharac article {
+    border-radius: 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divGrid h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.divGrid p, .divGrid a {
+    font-size: 17px;
+}
+.divGrid a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* start by left side */
+#character1 {
+    grid-area: 5 / 1 / span 7 / span 11;
+    background-color: #f7f9fc;
+    padding: 40px;
+}
+#character2 {
+    grid-area: 13 / 1 / span 9 / span 11;
+    background-image: url(../assets/images/countrizzready.jpg);
+}
+#character3 {
+    grid-area: 23 / 1 / span 8 / span 11;
+    background-image: url(../assets/images/countrizzcolour.jpg);
+}
+/* logo - middle column */
+#character4 {
+    grid-area: 2 / 1 / span 2 / -1;
+    background-image: url(../assets/images/countrizzlogo.png);
+}
+#containerCharac > #character4 {
+    border-radius: 0;
+    background-position: center;
+    background-size: contain;
+}
+#character5 {
+    grid-area: 5 / 13 / span 15 / span 15;
+    background-image: url(../assets/images/countrizzfinal.jpg);
+}
+#character6 {
+    grid-area: -11 / 13 / -1 / span 15;
+    background-image: url(../assets/images/countrizzbuild.jpg);
+}
+#character7 {
+    grid-area: 5 / 29 / span 8 / span 10;
+    background-image: url(../assets/images/countrizzbrasil.jpg);
+}
+#character8 {
+    grid-area: 14 / 29 / span 8 / span 10;
+    background-image: url(../assets/images/countrizzaustralia.jpg);
+}
+#character9 {
+    grid-area: -9 / 29 / span 8 / span 10;
+    background-image: url(../assets/images/countrizzchina.jpg);
+}
+
+
+
+/* GRID 4 - CONTAINER 4 */
+/* DATA VIZ PROJECT */
+#container4 {
+    display: grid;
+    width: 80vw;
+    height: 60vw;
+    grid-template-columns: repeat(39, minmax(10px, 40px));
+    grid-template-rows: repeat(31, minmax(10px, 40px));
+}
+#grid4_1 {
+    grid-area: 4 / 2 / span 15 / -2 ;
+    background-image: url(../assets/images/datavizz1.jpg);
+    border-radius: 100px;
+    z-index: 1;
+    opacity: 10%;
+    filter: blur(5px);
+}
+#grid4_2 {
+    grid-area: 1 / 4 / span 4 / -4 ;
+    background-color: #f7dce158;
+    border-radius: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+#grid4_2 h2 {
+    color: #54798c;
+}
+#grid4_2 p {
+    width: 22vw;
+}
+/* middle */
+#grid4_3 {
+    grid-area: 1 / 18 / span 5 / span 5 ;
+    background-image: url(../assets/images/datavizz0.jpg);
+    border-radius: 50%;
+    z-index: 2;
+}
+#grid4_4 {
+    grid-area: 8 / 13 / -4 / -13 ;
+    background-image: url(../assets/images/datavizz7\ copy.jpg);
+    border-radius: 100px;
+    z-index: 2;
+}
+#grid4_5 {
+    grid-area: 10 / 16 / -4 / -10 ;
+    background-color: #f7dce158;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+/* left */
+#grid4_6 {
+    grid-area: 7 / 1 / span 2 / span 11 ;
+    background-image: url(../assets/images/datavizz02.jpg);
+    border-radius: 30px;
+    z-index: 2;
+}
+#grid4_7 {
+    grid-area: 10 / 1 / span 2 / span 3 ;
+    background-color: #f7dce1;
+    border-radius: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allocateTimeP {
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    font-size: 18px;
+    font-weight: 600;
+}
+#grid4_8 {
+    grid-area: 10 / 5 / span 2 / span 3 ;
+    background-color: #f7dce1;
+    border-radius: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid4_9 {
+    grid-area: 10 / 9 / span 2 / span 3 ;
+    background-color: #f7dce1;
+    border-radius: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid4_10 {
+    grid-area: 14 / 1 / span 8 / span 11 ;
+    background-image: url(../assets/images/datavizz4.jpg);
+    border-radius: 50px;
+    z-index: 2;
+    border: #f7dce1 solid 5px;
+}
+
+/* right */
+#grid4_11 {
+    grid-area: 7 / -8 / span 6 / span 7 ;
+    background-image: url(../assets/images/datavizz8.jpg);
+    border-radius: 40px;
+    z-index: 2;
+    border: #f7dce1 solid 5px;
+}
+#grid4_12 {
+    grid-area: 14 / -8 / span 6 / span 7 ;
+    background-image: url(../assets/images/datavizz7.jpg);
+    border-radius: 40px;
+    z-index: 2;
+    border: #f7dce1 solid 5px;
+}
+
+/* bottom */
+#grid4_13 {
+    grid-area: 28 / 22 / span 3 / span 15 ;
+    background-image: url(../assets/images/datavizz6.jpg);
+    border-radius: 30px;
+    z-index: 3;
+}
+#grid4_14 {
+    grid-area: 27 / 4 / span 5 / span 4 ;
+    background-image: url(../assets/images/datavizzlisa1.png);
+    border-radius: 30px;
+    z-index: 2;
+}
+#grid4_15 {
+    grid-area: 27 / 9 / span 5 / span 4 ;
+    background-image: url(../assets/images/datavizzlisa2.png);
+    border-radius: 30px;
+    z-index: 2;
+}
+#grid4_16 {
+    grid-area: 27 / 14 / span 5 / span 4 ;
+    background-image: url(../assets/images/datavizzlisa3.png);
+    border-radius: 30px;
+    z-index: 2;
+}
+
+
+
+/* GRID 5 - CONTAINER 5 */
+/* BRAND ADIDAS COLLAGE */
+#container5 {
+    width: 35vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(11, minmax(20px, 60px));
+    grid-template-rows: repeat(14, minmax(20px, 60px));
+    justify-content: center;
+}
+#container5style, #container6style {
+    display: flex;
+    width: 35vw;
+    flex-direction: column;
+    align-items: center;
+}
+#container6style {
+    width: 45vw;
+}
+#container5style p, #container6style p {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+}
+#container5style h3, #container6style h3 {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* front */
+#grid5_1 {
+    grid-area: 2 / 2 / span 7 / -3 ;
+    background-image: url(../assets/images/adidascollage2.jpg);
+    border-radius: 50px;
+    z-index: 2;
+}
+#grid5_2 {
+    grid-area: 1 / 6 / span 2 / -1 ;
+    background-image: url(../assets/images/adidascollage4.jpg);
+    border-radius: 30px;
+    z-index: 3;
+}
+#grid5_3 {
+    grid-area: 8 / 2 / span 1 / span 3 ;
+    background-image: url(../assets/images/adidascollage3.jpg);
+    border-radius: 20px;
+    z-index: 3;
+}
+/* back */
+#grid5_4 {
+    grid-area: 7 / 1 / -1 / span 2 ;
+    background-image: url(../assets/images/adidascollage5.jpg);
+    border-radius: 30px;
+    z-index: 2;
+}
+#grid5_5 {
+    grid-area: 5 / 4 / -1 / -1 ;
+    background-image: url(../assets/images/adidascollage.jpg);
+    border-radius: 70px;
+    z-index: 2;
+}
+
+
+/* GRID 6 - CONTAINER 6 */
+/* LOW POLY PROJECT */
+#container6 {
+    width: 45vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(14, minmax(20px, 60px));
+    grid-template-rows: repeat(14, minmax(20px, 60px));
+    justify-content: center;
+}
+
+#grid6_1 {
+    grid-area: 1 / 1 / span 6 / span 6 ;
+    background-image: url(../assets/images/poly4.jpg);
+    border-radius: 70px;
+    z-index: 1;
+}
+#grid6_2 {
+    grid-area: 2 / 9 / span 2 / span 6 ;
+    background-image: url(../assets/images/poly3.jpg);
+    border-radius: 50px;
+    z-index: 3;
+}
+#grid6_3 {
+    grid-area: 3 / 3 / -2 / -3 ;
+    background-image: url(../assets/images/poly.jpg);
+    border-radius: 100px;
+    z-index: 2;
+}
+#grid6_4 {
+    grid-area: 9 / -7 / span 6 / span 6 ;
+    background-image: url(../assets/images/poly2.jpg);
+    border-radius: 70px;
+    z-index: 2;
+}
+
+
+/* PHOTOGRAPHY PROJECTS */
+/* PATTERN CAROUSEL */
+.carousel {
+    width: 82vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.carousel > section {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 2vw;
+}
+.carousel div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.carousel article {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel p {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Own design for carousel 1 */
+/* THE FIVE SENSES PROJECT */
+#carousel1 > section {
+    width: 100%;
+    height: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    gap: 10px;
+}
+
+#carousel_1 {
+    background-image: url(../assets/images/INM102SAA_Tamires_FIveSenses-images-2.jpg);
+}
+#carousel_2 {
+    background-image: url(../assets/images/INM102SAA_Tamires_FIveSenses-images-3.jpg);
+}
+#carousel_3 {
+    background-image: url(../assets/images/INM102SAA_Tamires_FIveSenses-images-4.jpg);
+}
+#carousel_4 {
+    background-image: url(../assets/images/INM102SAA_Tamires_FIveSenses-images-5.jpg);
+}
+
+#carousel2 > section {
+    width: 100%;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 2vw;
+}
+
+/* NEXT CAROUSEL PICTURES */
+/* STREET PHOTOGRAPHY */
+#carousel2_2 {
+    background-image: url(../assets/images/street1.jpg);
+}
+#carousel2_3 {
+    background-image: url(../assets/images/street2.jpg);
+}
+#carousel2_4 {
+    background-image: url(../assets/images/street3.jpg);
+}
+#carousel2_6 {
+    background-image: url(../assets/images/street4.jpg);
+}
+#carousel2_7 {
+    background-image: url(../assets/images/street5.jpg);
+}
+#carousel2_8 {
+    background-image: url(../assets/images/street6.jpg);
+}
+#carousel2_10 {
+    background-image: url(../assets/images/street7.jpg);
+}
+#carousel2_11 {
+    background-image: url(../assets/images/street8.jpg);
+}
+#carousel2_12 {
+    background-image: url(../assets/images/street12.jpg);
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////// */
+/* MOBILE RESPONSIVE SCREEN */
+/* SCREEN SIZE AFTER 650PX */
+@media only screen and (max-width: 700px) {
+    /* MAIN SECTION */
+    body, a, p, section, article, div p {
+        line-height: 1.2;
+        font-size: 12px;
+    }
+    #containers a {
+        font-size: 12px;
+        color: #223ea6;
+        font-weight: 600;
+    }
+    h2 {
+        text-align: center;
+    }
+    /* SECTION GRIDS */
+    #containers {
+        padding: 20px 30px 100px 30px;
+    }
+    #containerTitle {
+        gap: 20px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    #containerTitle p {
+        line-height: 1.2;
+    }
+    #descripRespons {
+        display: none;
+    }
+    #descripMobile {
+        display: block;
+    }
+
+    /* SECTION GRIDS */
+    /* SECTION COVER PAGE - WEBSITE MULTIFITAS MOCKUPS */
+    #containerCoverWeb {
+        display: grid;
+        width: 100%;
+        height: 100vw;
+    }
+    #containerCoverWeb article {
+        border-radius: 30px;
+    }
+
+
+
+    /* GRID DESIGN PROJECTS */
+    /* GRID - <!-- Cameo & Match tattoo --> */
+    /* Spce between 2 grid group */
+    .twoGrids {
+        gap: 5vh;
+    }
+    .style2Grids p {
+        padding: 20px 0;
+    }
+
+    /* style for half of the grid */
+    .styleHalfGrid {
+        width: 100%;
+    }
+    .styleHalfGrid p {
+        padding: 20px 0;
+    }
+    .styleHalfGrid h3 {
+        font-size: 18px;
+    }
+
+    /* GRID 2 - CONTAINER 2 */
+    /* CAMEO PROJECT */
+    #container2 {
+        width: 100%;
+        height: 50vh;
+    }
+    #cameo1 p {
+        font-size: 12px;
+    }
+
+
+
+    /* GRID 3 - CONTAINER 3 */
+    /* MATCH TATTOO PROJECT */
+    #container3 {
+        width: 100%;
+        height: 50vh;
+        display: grid;
+    }
+    /* GRIDS IMAGES AREAS */
+    #containers article {
+        border-radius: 20px;
+    }
+    #grid3_3 div {
+        padding: 10px;
+        gap: 0;
+    }
+    #grid3_3 h3 { 
+        font-size: 10px;
+    }
+    #grid3_3 p {
+        font-size: 9px;
+    }
+    #grid3_4 {
+        grid-area: 1 / 12 / -2 / -2 ;
+        margin-left: -1px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    #grid3_6 {
+        grid-area: 3 / -4 / span 2 / -1 ;
+    }
+    #grid3_7 {
+        grid-area: -7 / -4 / span 2 / -1 ;
+    }
+
+
+
+    /* GRID - CONTAINER COUNTRIZZ CHARACTERS */
+    #containerCharac {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
+    #containerCharac article {
+        border-radius: 30px;
+    }   
+    .divGrid {
+        gap: 5px;
+    }
+    .divGrid h3 {
+        font-size: 18px;
+    }
+    .divGrid p, .divGrid a {
+        font-size: 10px;
+    }
+
+    /* start by left side */
+    /* description */
+    #character1 {
+        grid-area: 5 / 1 / span 5 / -1;
+        padding: 20px;
+    }
+    /* ready to play */
+    #character2 {
+        grid-area: 11 / 1 / span 6 / 20;
+    }
+    #character3 {
+        grid-area: 11 / 21 / span 6 / -1;
+    }
+    /* logo - middle column */
+    #character5 {
+        grid-area: 18 / 17 / span 7 / -1;
+    }
+    #character6 {
+        grid-area: 18 / 1 / span 7 / 16;
+    }
+    /* characters 3 */
+    #character7 {
+        grid-area: -6 / 1 / -1 / span 12;
+    }
+    #character8 {
+        grid-area: -6 / 14 / -1 / span 12;
+    }
+    #character9 {
+        grid-area: -6 / 27 / -1 / span 12;
+    }
+
+
+    /* GRID 4 - CONTAINER 4 */
+    /* DATA VIZ PROJECT */
+    #container4 {
+        width: 100%;
+        height: 60vh;
+        grid-template-columns: repeat(39, 1fr);
+        grid-template-rows: repeat(31, 1fr);
+    }
+    #grid4_1 {
+        display: none;
+    }
+    #grid4_2 {
+        grid-area: 1 / 1 / span 4 / -1 ;
+        padding: 0 15px;
+    }
+    #grid4_2 h2 {
+        font-size: 16px;
+    }
+    #grid4_2 p {
+        width: 28vw;
+        font-size: 8px;
+    }
+    /* middle */
+    #grid4_3 {
+        grid-area: 1 / 17 / span 5 / span 7 ;
+    }
+    #grid4_4 {
+        grid-area: 7 / 21 / -7 / -1 ;
+        border-radius: 30px;
+    }
+    #grid4_5 {
+        display: none;
+    }
+
+    /* left */
+    #grid4_6 {
+        grid-area: 7 / 1 / span 2 / span 17 ;
+    }
+    #grid4_7 {
+        grid-area: 10 / 1 / span 2 / span 5 ;
+        border-radius: 30px;
+    }
+    .allocateTimeP {
+        font-size: 12px;
+    }
+    #grid4_8 {
+        grid-area: 10 / 7 / span 2 / span 5 ;
+        border-radius: 30px;
+    }
+    #grid4_9 {
+        grid-area: 10 / 13 / span 2 / span 5 ;
+        border-radius: 30px;
+    }
+    #grid4_10 {
+        grid-area: 14 / 1 / span 10 / 18 ;
+        border-radius: 30px;
+        border: none;
+    }
+    /* right */
+    #grid4_11 {
+        grid-area: -10 / 1 / -1 / 20 ;
+        border-radius: 30px;
+        border: none;
+    }
+    #grid4_12 {
+        display: none;
+    }
+    /* bottom */
+    #grid4_13 {
+        grid-area: -6 / 21 / -1 / -1 ;
+        border-radius: 20px;
+    }
+    #grid4_14 {
+        display: none;
+    }
+    #grid4_15 {
+        display: none;
+    }
+    #grid4_16 {
+        display: none;
+    }
+
+
+    /* GRID 5 - CONTAINER 5 */
+    /* BRAND ADIDAS COLLAGE */
+    #container5 {
+        width: 100%;
+        height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+    }
+    #container5style, #container6style {
+        width: 100%;
+    }
+    #container5style p, #container6style p {
+        padding: 10px;
+    }
+    #container5style h3, #container6style h3 {
+        font-size: 18px;
+    }
+    /* front */
+    #grid5_1 {
+        grid-area: 1 / 1 / span 10 / -3 ;
+    }
+    #grid5_2 {
+        display: none;
+    }
+    #grid5_3 {
+        grid-area: 8 / 2 / span 1 / span 3 ;
+    }
+    /* back */
+    #grid5_4 {
+        grid-area: 7 / 1 / -1 / span 2 ;
+    }
+    #grid5_5 {
+        grid-area: 5 / 4 / -1 / -1 ;
+    }
+
+
+    /* GRID 6 - CONTAINER 6 */
+    /* LOW POLY PROJECT */
+    #container6 {
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+    }
+
+    #grid6_1 {
+        grid-area: 1 / 1 / span 7 / span 7 ;
+    }
+    #grid6_2 {
+        grid-area: 2 / 9 / span 3 / span 6 ;
+    }
+    #grid6_3 {
+        grid-area: 3 / 3 / -2 / -3 ;
+    }
+    #grid6_4 {
+        grid-area: 9 / -7 / span 6 / span 6 ;
+    }
+
+
+    /* STREET PHOTOGRAPHY */
+    #carousel2 > section {
+        width: 100%;
+        height: 80vh;
+        gap: 1vw;
+    }
+
+}
